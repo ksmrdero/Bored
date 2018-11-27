@@ -3,4 +3,6 @@
     <string name="title">Bored?</string>
     <string name="alone">I am alone</string>
     <string name="friends">I have friends</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
 </resources>
