@@ -32,7 +32,6 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="1dp"
-        android:onClick="goToSecondActivity"
         android:text="@string/alone"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
@@ -40,6 +39,29 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:id="@+id/fetcheddata"/>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:id="@+id/fetchedfriends"/>
+
+    </ScrollView>
 
     <Button
         android:id="@+id/button2"
@@ -51,7 +73,6 @@
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:layout_weight="0.5"
-        android:onClick="goToThirdActivity"
         android:text="@string/friends"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
