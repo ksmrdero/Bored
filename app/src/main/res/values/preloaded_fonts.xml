@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/athiti_semibold</item>
+        <item>@font/eb_garamond</item>
+        <item>@font/gfs_didot</item>
+        <item>@font/gilda_display</item>
+        <item>@font/open_sans</item>
+    </array>
+</resources>
